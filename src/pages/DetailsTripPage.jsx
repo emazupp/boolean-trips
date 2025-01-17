@@ -3,6 +3,7 @@ import { contacts } from "../data/db";
 import { trips } from "../data/db";
 import ContactsCard from "../components/ContactsCard";
 import { useState } from "react";
+import Header from "../components/Header";
 
 export default function DetailsTripPage() {
   const [inputValue, setInputValue] = useState();
@@ -32,17 +33,19 @@ export default function DetailsTripPage() {
     });
     setNewContacts(newFilteredContacts);
   }
+
   return (
     <>
-      <main>
-        {/* <div className="container-trip-cover-img">
-          <h1>{trip.destinazione}</h1>
+      <Header page="trip" />
+      <main className="mb-10 h-100">
+        <div className="container-trip-cover-img">
+          <h1>{trip.destinazione.toUpperCase()}</h1>
           <img className="trip-cover-img" src={trip.img} alt={trip.id} />
-        </div> */}
+        </div>
 
         <div className="container px-4 mt-4">
           <div className="flex-sm-row flex-column d-flex justify-content-between">
-            <h2 className="mb-4 me-3">Rubrica</h2>
+            <h2 className="mb-4 me-3">Rubrica viaggio</h2>
             <form onSubmit={handleSubmit}>
               <div className="input-group flex-nowrap mb-3">
                 <input

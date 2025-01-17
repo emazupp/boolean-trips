@@ -1,11 +1,10 @@
-export default function ContactModal({ contact }) {
-  const img = contact.img ? contact.img : "/img//users-img/defaultUserImg.jpg";
+export default function ContactModal({ contact, img }) {
   return (
     <>
       <div
         className="modal fade mt-5"
         id={contact.id}
-        tabindex="-1"
+        tabIndex="-1"
         aria-hidden="true"
       >
         <div className="modal-dialog">
@@ -43,16 +42,12 @@ export default function ContactModal({ contact }) {
                 <p>{contact.cod_fiscale}</p>
               </div>
             </div>
-            <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Chiudi
-              </button>
+            <div className="modal-footer justify-content-center">
               <button type="button" className="btn btn-primary">
-                Contatta
+                Chiama
+              </button>
+              <button type="button" className="btn btn-info">
+                Chat
               </button>
             </div>
           </div>

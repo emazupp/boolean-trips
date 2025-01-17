@@ -3,19 +3,20 @@ import { Link } from "react-router-dom";
 export default function Card({ trip }) {
   return (
     <>
-      <div className="col m-auto mb-3 mb-lg-5">
-        <div className="card">
+      <div className="card-trip">
+        <Link to={`/details/${trip.id}`} className="link-card-trip">
           <img src={trip.img} className="card-img-top" alt={trip.id} />
-          <div className="card-body">
-            <h5 className="card-title">{trip.destinazione}</h5>
-            {/* <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p> */}
-            <Link to={`/details/${trip.id}`} className="btn btn-primary">
-              Vedi dettaglio
-            </Link>
+          <div className="trip-title">
+            <h2>{trip.destinazione.toUpperCase()}</h2>
           </div>
+        </Link>
+        <div className="date-container">
+          <span>
+            Andata: <strong>{trip.data_inizio}</strong>
+          </span>
+          <span>
+            Ritorno: <strong>{trip.data_fine}</strong>
+          </span>
         </div>
       </div>
     </>

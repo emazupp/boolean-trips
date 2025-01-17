@@ -1,3 +1,60 @@
 h1 {
   color: red;
 }
+
+.card {
+  width: 100%;
+}
+
+.card-contacts {
+  height: 100% !important;
+}
+
+.modal-title {
+  font-size: 1.5rem !important;
+}
+
+.contact-img {
+  object-fit: cover !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.container-img-contact {
+  height: 100% !important;
+  aspect-ratio: 1;
+}
+
+main {
+  height: 100vh;
+}
+.trip-cover-img {
+  object-fit: contain;
+}
+
+.container-detail-contact-img {
+  height: 150px;
+  aspect-ratio: 1;
+}
+
+/* .container-trip-cover-img {
+  width: 100%;
+  height: 30%;
+  position: relative;
+}
+
+.container-trip-cover-img > h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+ */
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.input-group {
+  max-width: 400px;
+}

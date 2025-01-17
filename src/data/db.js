@@ -1,63 +1,63 @@
-const trips = [
+export const trips = [
   {
     id: 1,
     destinazione: "Londra",
     data_inizio: "20/01/2025",
     data_fine: "27/01/2025",
-    img: "https://picsum.photos/600/400",
+    img: "/img/trips-img/londra.jpg",
   },
   {
     id: 2,
     destinazione: "Roma",
     data_inizio: "20/01/2025",
     data_fine: "27/01/2025",
-    img: "https://picsum.photos/600/400",
+    img: "/img/trips-img/roma.jpg",
   },
   {
     id: 3,
     destinazione: "Egitto",
     data_inizio: "20/01/2025",
     data_fine: "27/01/2025",
-    img: "https://picsum.photos/600/400",
+    img: "/img/trips-img/egitto.jpg",
   },
   {
     id: 4,
     destinazione: "Norvegia",
     data_inizio: "20/01/2025",
     data_fine: "27/01/2025",
-    img: "https://picsum.photos/600/400",
+    img: "/img/trips-img/norvegia.jpg",
   },
   {
     id: 5,
     destinazione: "Parigi",
     data_inizio: "20/01/2025",
     data_fine: "27/01/2025",
-    img: "https://picsum.photos/600/400",
+    img: "/img/trips-img/parigi.jpg",
   },
   {
     id: 6,
     destinazione: "Madrid",
     data_inizio: "20/01/2025",
     data_fine: "27/01/2025",
-    img: "https://picsum.photos/600/400",
+    img: "/img/trips-img/madrid.jpg",
   },
   {
     id: 7,
     destinazione: "Barcellona",
     data_inizio: "20/01/2025",
     data_fine: "27/01/2025",
-    img: "https://picsum.photos/600/400",
+    img: "/img/trips-img/barcellona.jpg",
   },
   {
     id: 8,
     destinazione: "Marsiglia",
     data_inizio: "20/01/2025",
     data_fine: "27/01/2025",
-    img: "https://picsum.photos/600/400",
+    img: "/img/trips-img/marsiglia.jpg",
   },
 ];
 
-const contacts = [
+export const contacts = [
   {
     id: 1,
     trip_id: 1,
@@ -66,6 +66,7 @@ const contacts = [
     email: "ciao@gmail.com",
     cod_fiscale: "QPXVYW51Z02T871B",
     numero_di_telefono: "3333333333",
+    img: "",
   },
   {
     id: 2,
@@ -75,6 +76,7 @@ const contacts = [
     email: "giulia.rossi@email.com",
     cod_fiscale: "RSSGLI85M45Z404H",
     numero_di_telefono: "3445556677",
+    img: "/img/users-img/user2.png",
   },
   {
     id: 3,
@@ -84,6 +86,7 @@ const contacts = [
     email: "marco.bianchi@email.it",
     cod_fiscale: "BNCMRC76A14H501T",
     numero_di_telefono: "3224455666",
+    img: "/img/users-img/user1.png",
   },
   {
     id: 4,
@@ -93,6 +96,7 @@ const contacts = [
     email: "laura.verdi@email.com",
     cod_fiscale: "VRDLRA91M51Z404V",
     numero_di_telefono: "3312345678",
+    img: "",
   },
   {
     id: 5,
@@ -102,6 +106,7 @@ const contacts = [
     email: "paolo.neri@email.it",
     cod_fiscale: "NRIPLS65M18H501K",
     numero_di_telefono: "3398765432",
+    img: "",
   },
   {
     id: 6,
@@ -111,6 +116,7 @@ const contacts = [
     email: "alessandra.luca@email.it",
     cod_fiscale: "LCUALS92A41C968E",
     numero_di_telefono: "3457890123",
+    img: "",
   },
   {
     id: 7,
@@ -120,6 +126,7 @@ const contacts = [
     email: "francesco.galli@email.com",
     cod_fiscale: "GLLFNC70A18E404C",
     numero_di_telefono: "3289101112",
+    img: "",
   },
   {
     id: 8,
@@ -129,6 +136,7 @@ const contacts = [
     email: "stefano.lombardi@email.it",
     cod_fiscale: "LMBDST88B13Z404P",
     numero_di_telefono: "3409876543",
+    img: "",
   },
   {
     id: 9,
@@ -138,6 +146,7 @@ const contacts = [
     email: "sara.ferrari@email.com",
     cod_fiscale: "FRRSRA92M41H501C",
     numero_di_telefono: "3331122334",
+    img: "",
   },
   {
     id: 10,
@@ -147,6 +156,7 @@ const contacts = [
     email: "antonio.rizzo@email.it",
     cod_fiscale: "RZZNTN75D12H501P",
     numero_di_telefono: "3312233445",
+    img: "",
   },
   {
     id: 11,
@@ -156,6 +166,7 @@ const contacts = [
     email: "lucia.pellegrini@email.com",
     cod_fiscale: "PLLCLD86P51A404I",
     numero_di_telefono: "3405432109",
+    img: "",
   },
   {
     id: 12,
@@ -165,6 +176,7 @@ const contacts = [
     email: "giovanni.giorgi@email.it",
     cod_fiscale: "GRGJNN82L14A404N",
     numero_di_telefono: "3426549876",
+    img: "",
   },
   {
     id: 13,
@@ -174,6 +186,7 @@ const contacts = [
     email: "martina.bertoli@email.it",
     cod_fiscale: "BRTLMT90C51H501M",
     numero_di_telefono: "3281234567",
+    img: "",
   },
   {
     id: 14,
@@ -183,6 +196,7 @@ const contacts = [
     email: "claudia.mazzi@email.com",
     cod_fiscale: "MZZCLD84D52Z404L",
     numero_di_telefono: "3495678901",
+    img: "",
   },
   {
     id: 15,
@@ -192,6 +206,7 @@ const contacts = [
     email: "giorgio.silvestri@email.it",
     cod_fiscale: "SLVGRG70M22A404K",
     numero_di_telefono: "3339876543",
+    img: "",
   },
   {
     id: 16,
@@ -201,6 +216,7 @@ const contacts = [
     email: "andrea.costa@email.com",
     cod_fiscale: "CSTAND86B42D404H",
     numero_di_telefono: "3398761234",
+    img: "",
   },
   {
     id: 17,
@@ -210,6 +226,7 @@ const contacts = [
     email: "riccardo.fabbri@email.it",
     cod_fiscale: "FBBRCV78D18H501I",
     numero_di_telefono: "3406543210",
+    img: "",
   },
   {
     id: 18,
@@ -219,6 +236,7 @@ const contacts = [
     email: "francesca.mancini@email.it",
     cod_fiscale: "MNCFNC85L60H501J",
     numero_di_telefono: "3334445556",
+    img: "",
   },
   {
     id: 19,
@@ -228,6 +246,7 @@ const contacts = [
     email: "alessio.marino@email.com",
     cod_fiscale: "MRNALSS85D22H501B",
     numero_di_telefono: "3397778889",
+    img: "",
   },
   {
     id: 20,
@@ -237,6 +256,7 @@ const contacts = [
     email: "diana.cavaliere@email.it",
     cod_fiscale: "CVLDNA78A41A404O",
     numero_di_telefono: "3387654321",
+    img: "",
   },
   {
     id: 21,
@@ -246,6 +266,7 @@ const contacts = [
     email: "simone.barbieri@email.com",
     cod_fiscale: "BRBSMN81H11Z404T",
     numero_di_telefono: "3445566778",
+    img: "",
   },
   {
     id: 22,
@@ -255,6 +276,7 @@ const contacts = [
     email: "elena.ricci@email.it",
     cod_fiscale: "RCCLNA74B56H501N",
     numero_di_telefono: "3301234567",
+    img: "",
   },
   {
     id: 23,
@@ -264,6 +286,7 @@ const contacts = [
     email: "matteo.pascali@email.com",
     cod_fiscale: "PSCMTT85C14Z404A",
     numero_di_telefono: "3381122334",
+    img: "",
   },
   {
     id: 24,
@@ -273,6 +296,7 @@ const contacts = [
     email: "gabriele.ferrari@email.it",
     cod_fiscale: "FRRGBL81B52Z404A",
     numero_di_telefono: "3361122334",
+    img: "",
   },
   {
     id: 25,
@@ -282,6 +306,7 @@ const contacts = [
     email: "roberta.sarti@email.it",
     cod_fiscale: "SRTBRB85M51H501M",
     numero_di_telefono: "3345678901",
+    img: "",
   },
   {
     id: 26,
@@ -291,6 +316,7 @@ const contacts = [
     email: "carmine.deluca@email.it",
     cod_fiscale: "DLCMNR78A12D404E",
     numero_di_telefono: "3301122334",
+    img: "",
   },
   {
     id: 27,
@@ -300,6 +326,7 @@ const contacts = [
     email: "dario.romano@email.it",
     cod_fiscale: "RMNDRA73L02H501D",
     numero_di_telefono: "3389998887",
+    img: "",
   },
   {
     id: 28,
@@ -309,6 +336,7 @@ const contacts = [
     email: "elisabetta.sforza@email.it",
     cod_fiscale: "SFRLBT82B56H501S",
     numero_di_telefono: "3472223333",
+    img: "",
   },
   {
     id: 29,
@@ -318,6 +346,7 @@ const contacts = [
     email: "gianluca.martini@email.it",
     cod_fiscale: "MRTGLC83L01D404T",
     numero_di_telefono: "3390123456",
+    img: "",
   },
   {
     id: 30,
@@ -327,6 +356,7 @@ const contacts = [
     email: "valeria.desantis@email.it",
     cod_fiscale: "DSTVLR94A41H501B",
     numero_di_telefono: "3349876543",
+    img: "",
   },
   {
     id: 31,
@@ -336,6 +366,7 @@ const contacts = [
     email: "carlo.benassi@email.it",
     cod_fiscale: "BNSCRL76B16A404S",
     numero_di_telefono: "3306549876",
+    img: "",
   },
   {
     id: 32,
@@ -345,6 +376,7 @@ const contacts = [
     email: "franco.zanetti@email.it",
     cod_fiscale: "ZNTFNC60P22Z404H",
     numero_di_telefono: "3353214321",
+    img: "",
   },
   {
     id: 33,
@@ -354,6 +386,7 @@ const contacts = [
     email: "tiziana.sforza@email.it",
     cod_fiscale: "SFRTZN81C52A404O",
     numero_di_telefono: "3386549876",
+    img: "",
   },
   {
     id: 34,
@@ -363,6 +396,7 @@ const contacts = [
     email: "giovanna.gatti@email.it",
     cod_fiscale: "GTTGVN73C72H501R",
     numero_di_telefono: "3348765432",
+    img: "",
   },
   {
     id: 35,
@@ -372,6 +406,7 @@ const contacts = [
     email: "michele.fiorentini@email.it",
     cod_fiscale: "FNTMCL65B21A404Y",
     numero_di_telefono: "3401234567",
+    img: "",
   },
   {
     id: 36,
@@ -381,6 +416,7 @@ const contacts = [
     email: "elisa.martini@email.it",
     cod_fiscale: "MTNEIS85C32H501L",
     numero_di_telefono: "3336549876",
+    img: "",
   },
   {
     id: 37,
@@ -390,6 +426,7 @@ const contacts = [
     email: "giovanni.giorgi@email.it",
     cod_fiscale: "GRGMRC72L55A404B",
     numero_di_telefono: "3380987654",
+    img: "",
   },
   {
     id: 38,
@@ -399,6 +436,7 @@ const contacts = [
     email: "lorenzo.sartori@email.it",
     cod_fiscale: "SRTLNZ72C12H501S",
     numero_di_telefono: "3309876543",
+    img: "",
   },
   {
     id: 39,
@@ -408,6 +446,7 @@ const contacts = [
     email: "giada.marzoli@email.it",
     cod_fiscale: "MZLGD85M44H501F",
     numero_di_telefono: "3321234567",
+    img: "",
   },
   {
     id: 40,
@@ -417,6 +456,7 @@ const contacts = [
     email: "alessandra.monti@email.it",
     cod_fiscale: "MNTLSN72C52A404S",
     numero_di_telefono: "3386655443",
+    img: "",
   },
   {
     id: 41,
@@ -426,6 +466,7 @@ const contacts = [
     email: "fabio.gambini@email.it",
     cod_fiscale: "GMBFBI88M51H501V",
     numero_di_telefono: "3390123457",
+    img: "",
   },
   {
     id: 42,
@@ -435,6 +476,7 @@ const contacts = [
     email: "alessio.chavez@email.it",
     cod_fiscale: "CHVLSX74B67H501N",
     numero_di_telefono: "3317888877",
+    img: "",
   },
   {
     id: 43,
@@ -444,6 +486,7 @@ const contacts = [
     email: "dante.petti@email.it",
     cod_fiscale: "PTTDNT83L15D404P",
     numero_di_telefono: "3475559988",
+    img: "",
   },
   {
     id: 44,
@@ -453,6 +496,7 @@ const contacts = [
     email: "riccardo.bertolini@email.it",
     cod_fiscale: "BRTCRD92L02H501C",
     numero_di_telefono: "3326543210",
+    img: "",
   },
   {
     id: 45,
@@ -462,6 +506,7 @@ const contacts = [
     email: "monica.orlando@email.it",
     cod_fiscale: "RLDMNC91R13A404T",
     numero_di_telefono: "3394567890",
+    img: "",
   },
   {
     id: 46,
@@ -471,6 +516,7 @@ const contacts = [
     email: "enrico.baldini@email.it",
     cod_fiscale: "BLDNRC85B01H501C",
     numero_di_telefono: "3367896543",
+    img: "",
   },
   {
     id: 47,
@@ -480,6 +526,7 @@ const contacts = [
     email: "rita.antonini@email.it",
     cod_fiscale: "NTNRTA63L12A404V",
     numero_di_telefono: "3388765432",
+    img: "",
   },
   {
     id: 48,
@@ -489,6 +536,7 @@ const contacts = [
     email: "francesca.venturi@email.it",
     cod_fiscale: "VNTFNC84C52H501G",
     numero_di_telefono: "3345678901",
+    img: "",
   },
   {
     id: 49,
@@ -498,6 +546,7 @@ const contacts = [
     email: "davide.borghini@email.it",
     cod_fiscale: "BRGDAV85C42H501K",
     numero_di_telefono: "3398765432",
+    img: "",
   },
   {
     id: 50,
@@ -507,7 +556,6 @@ const contacts = [
     email: "simona.calderoni@email.it",
     cod_fiscale: "CLDSMN82L12Z404G",
     numero_di_telefono: "3346578990",
+    img: "",
   },
 ];
-
-module.exports = { trips, contacts };
